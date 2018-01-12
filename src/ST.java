@@ -147,7 +147,7 @@ class ST {
         findPostorder(head, isbn);
     }
 
-    void findPostorder(TreeNode h, int isbn)
+    private void findPostorder(TreeNode h, int isbn)
     {
         if (h == null)
             return;
@@ -161,7 +161,7 @@ class ST {
     }
 
 
-    void printPreorder(TreeNode h)
+    private void printPreorder(TreeNode h)
     {
 
         if (h == null)
@@ -185,7 +185,7 @@ class ST {
 
 
 
-    public TreeNode find(int id) {
+    private TreeNode find(int id) {
         TreeNode p = head;
         while (p != null) {
             // Compare element with the element in the current subtree
@@ -210,9 +210,6 @@ class ST {
        else
        removeR(head, nodeid);
     }
-
-
-
 
 
 

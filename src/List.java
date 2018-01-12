@@ -187,7 +187,7 @@ public class List
 		ListNode current = firstNode;
 		// while not at end of list, output current node's data
 		while ( current != null ) {
-			str = str + "\nBook " + current.data.ISBN + " copies: " + current.data.getCopies() + "\n";
+			str = str + "\nBook " + current.data.ISBN + " copies: " + current.data.getCopies() ;
 			current = current.nextNode;
 		}
 
